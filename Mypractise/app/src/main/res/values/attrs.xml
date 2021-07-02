@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="url" format="string" />
+
+    <!--<declare-styleable name="ImageView">-->
+        <!--&lt;!&ndash;  load bitmap from uri(string type) &ndash;&gt;-->
+        <!--<attr name="url" />-->
+        <!--&lt;!&ndash;width for ResizeOptions (use Fresco to load bitmap). &ndash;&gt;-->
+        <!--<attr name="request_width" format="integer" />-->
+        <!--&lt;!&ndash;height for ResizeOptions (use Fresco to load bitmap). &ndash;&gt;-->
+        <!--<attr name="request_height" format="integer" />-->
+        <!--<attr name="placeholderRes" format="reference|color" />-->
+        <!--&lt;!&ndash;  require BindingCommand<Bitmap> See {@link @link com.kelin.mvvmlight.command.BindingCommand} &ndash;&gt;-->
+        <!--<attr name="onSuccessCommand" format="reference" />-->
+        <!--&lt;!&ndash;require BindingCommand<CloseableReference<CloseableImage>> See {@link com.kelin.mvvmlight.command.BindingCommand} &ndash;&gt;-->
+        <!--<attr name="onFailureCommand" format="reference" />-->
+
+    <!--</declare-styleable>-->
+
+</resources>

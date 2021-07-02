@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="TextStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/textsize</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:background">@color/background</item>
+        <item name="android:padding">@dimen/app_mpadding</item>
+    </style>
+</resources>

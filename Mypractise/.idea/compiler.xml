@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.7">
+      <module name="MyPractise.app" target="1.8" />
+      <module name="MyPractise.commonlibrary" target="1.8" />
+      <module name="MyPractise.module1" target="1.8" />
+      <module name="MyPractise.module2" target="1.8" />
+      <module name="MyPractise.mylibrary" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

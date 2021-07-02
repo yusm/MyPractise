@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="textsize">15sp</dimen>
+    <dimen name="app_spadding">5dp</dimen>
+    <dimen name="app_mpadding">5dp</dimen>
+    <dimen name="app_padding">20dp</dimen>
+
+    <color name="textColor">#111111</color>
+    <color name="background">#dddddd</color>
+</resources>

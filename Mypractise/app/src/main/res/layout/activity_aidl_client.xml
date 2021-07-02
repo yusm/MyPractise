@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <data>
+        <import type="com.example.yusm.mypractise.utils.Utils"/>
+        <variable
+            name="content"
+            type="String"/>
+        <variable
+            name="add"
+            type="String"/>
+        <variable
+            name="imageUrl"
+            type="String"/>
+    </data>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/app_mpadding"
+        android:layout_margin="@dimen/app_padding"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@{content}"
+        />
+
+    <TextView
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#eeeeee"
+        android:padding="@dimen/app_mpadding"
+        android:layout_margin="@dimen/app_padding"
+        android:text="@{Utils.getCurrentProcessName()}"
+        app:layout_constraintTop_toBottomOf="@+id/content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="280dp"
+        android:layout_height="140dp"
+        android:src="@mipmap/ic_app"
+        android:layout_marginTop="20dp"
+        app:url="@{imageUrl}"
+        app:layout_constraintTop_toBottomOf="@+id/add"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
